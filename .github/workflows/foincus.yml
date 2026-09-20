@@ -2,7 +2,7 @@ name: foincus
 on:
   workflow_dispatch: #手動foincus
 jobs:
- OK:
+ FOINCUS:
   runs-on: ubuntu-latest
   steps:
    - name: 安裝OpenGL
