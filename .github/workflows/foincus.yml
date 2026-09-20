@@ -10,4 +10,4 @@ jobs:
    - name: 安裝Node依賴
      run: npm install @maplibre/maplibre-gl-native@^6.4.1 sharp@^0.35.4
    - name: 執行node
-     run: curl -fsSL '${{secrets.JS}}'|xvfb-run -a node
+     run: curl -fsSL '${{secrets.FOINCUS}}'|xvfb-run -a node
