@@ -1,6 +1,6 @@
-name: 開始native
+name: foincus
 on:
-  workflow_dispatch: #手動觸發
+  workflow_dispatch: #手動foincus
 jobs:
  OK:
   runs-on: ubuntu-latest
